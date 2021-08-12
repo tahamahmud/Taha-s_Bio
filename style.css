@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+#top_banner{
+    background-image: url(Pic/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flex{
+    display: flex;
+}
+.son_div{
+    width: 40%;
+    padding-left: 3%;
+    margin-left: 3%;
+    padding-right: 4%;
+    margin-right: 4%;
+}
+.son_div img{
+width: 100%;
+}
+h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: 'MonteCarlo', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+.orange_color{
+    color: orange;
+}
+h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 800;
+}
+.button{
+    text-decoration: none;
+    color: hsl(0, 0%, 96%);
+    background-image: linear-gradient(yellow, red);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.middle-banner{
+    background-image: url(Pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+}
+.botton_banner{
+    background-image: url(Pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom;
+    padding-top: 100px;
+    
+}
+.lest-div{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 10px;
+
+}
+#for-left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#for-right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+.exprience{
+    padding-bottom: 0%;
+    color: green;
+    font-weight: 900;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+footer{
+    text-align: center;
+    padding-top: 200px;
+}
