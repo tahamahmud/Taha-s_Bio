@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    
 }
 #top_banner{
     background-image: url(Pic/top-banner.png);
@@ -93,4 +94,5 @@ p{
 footer{
     text-align: center;
     padding-top: 200px;
+    padding-bottom: 10px;
 }
