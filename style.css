@@ -47,6 +47,8 @@ p{
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: 900;
+    display: flex;
+    width: 130px;
 }
 .middle-banner{
     background-image: url(Pic/dream-bg.png);
