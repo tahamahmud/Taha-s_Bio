@@ -1,41 +1,9 @@
+/* over all */
 body{
-    margin: 0;
-    
-}
-#top_banner{
-    background-image: url(Pic/top-banner.png);
-    background-repeat: no-repeat;
-}
-#last_banner{
-    background-image: url(Pic/Frame\ 58.jpg);
-    background-repeat: no-repeat;
+    margin: 0; 
 }
 .flex{
     display: flex;
-}
-.son_div{
-    width: 40%;
-    padding-left: 3%;
-    margin-left: 3%;
-    padding-right: 4%;
-    margin-right: 4%;
-}
-.son_div_tt{
-    width: 40%;
-    padding-left:130px;
-    margin-left: 5%;
-    padding-right: 3%;
-    margin-right: 3%;
-
-}
-.son_div_to{
-    width: 40%;
-    padding-right: 2%;
-    margin-right: 2%;
-    padding-top: 50px;
-}
-.son_div_to img{
-width: 100%;
 }
 h1{
     font-weight: 100;
@@ -68,27 +36,66 @@ p{
     display: flex;
     width: 130px;
 }
-.middle-banner{
+
+
+/* first section */
+#top_banner{
+    background-image: url(Pic/top-banner.png);
+    background-repeat: no-repeat;
+}
+.son_div{
+    width: 40%;
+    padding-left: 3%;
+    margin-left: 3%;
+    padding-right: 4%;
+    margin-right: 4%;
+}
+.son_div_to{
+    width: 40%;
+    padding-top: 2px;
+}
+.son_div_to img{
+width: 100%;
+}
+
+
+/* second section */
+.middle_banner{
     background-image: url(Pic/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 30px;
 }
+.son_div_tt{
+    width: 40%;
+    padding-left:3%;
+    margin-left: 5%;
+    padding-right: 3%;
+    margin-right: 3%;
+}
+.son_div_tt img{
+    width: 100%;
+}
+.colo{
+    color: rgb(248, 7, 7);
+}
+
+
+/* thard section */
+#last_banner{
+    background-image: url(Pic/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/* forth section */
 .botton_banner{
     background-image: url(Pic/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left, bottom;
-    padding-top: 100px;
-    
+    padding-top: 100px;  
 }
-.lest-div{
-    box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    padding: 3%;
-    margin: 5%;
-    border-radius: 10px;
 
-}
 #for-left-border{
     border-left: 7px solid;
     border-image: linear-gradient(salmon, tomato);
@@ -100,7 +107,18 @@ p{
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     border-radius: 10px;
-
+}
+.lest-div{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 10px;
 }
 .exprience{
     padding-bottom: 0%;
@@ -111,15 +129,16 @@ p{
     text-align: center;
     font-size: 60px;
 }
-footer{
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 10px;
-}
-.colo{
-    color: rgb(248, 7, 7);
-}
-.padd{
-    padding-left: 90px;
-    padding-top: 2px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
