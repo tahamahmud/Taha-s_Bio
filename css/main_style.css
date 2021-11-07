@@ -1,0 +1,38 @@
+/* over all */
+body{
+    margin: 0; 
+}
+.flex{
+    display: flex;
+}
+h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: 'MonteCarlo', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+.orange_color{
+    color: orange;
+}
+h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 800;
+}
+.button{
+    text-decoration: none;
+    color: hsl(0, 0%, 96%);
+    background-image: linear-gradient(yellow, red);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 900;
+    display: flex;
+    width: 130px;
+}
